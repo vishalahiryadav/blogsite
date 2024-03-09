@@ -8,7 +8,7 @@ function handleClick(e){
 
   return (
     <div>
-      <div className="rounded-md bg-white flex gap-4 p-3">
+      <div className="rounded-md bg-white flex gap-4 p-3" id="section2">
        <p onClick={handleClick} className="text-red-300 font-semibold">INCENSE STICKS</p>
        <p onClick={handleClick} className="text-red-300 font-semibold">HOLI COLORS</p>
        <p onClick={handleClick} className="text-red-300 font-semibold ">DECOR</p>

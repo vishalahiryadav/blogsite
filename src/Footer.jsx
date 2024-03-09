@@ -1,7 +1,7 @@
 
 function Footer() {
     return (
-        <div className="flex justify-around px-20 py-2">
+        <div className="flex justify-around px-20 py-2" id="section1">
             <div className="p-4">
                 <h2>Policies</h2>
                 <p>Privacy Policy</p>

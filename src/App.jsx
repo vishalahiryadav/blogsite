@@ -1,25 +1,17 @@
-import Footer from "./Footer"
 import Header from "./Header"
 import HeroSection from "./HeroSection"
-// import Login from "./Login"
-import { BrowserRouter as Router,Routes, Route } from "react-router-dom";
 import Products from "./Products";
 import Blog from "./Blog";
+import Footer from "./Footer"
 
 export default function App() {
   return (
-    <div className="bg-red-200"> 
-      <Router>
+    <div className=""> 
       <Header />
-    <Routes>
-      <Route path="/" element={<HeroSection />}/>
-      <Route path="/blog" element={<Blog />}/>
-      <Route path="/products" element={<Products />}/>
-
-    </Routes>
+      <HeroSection />
+      <Products />
+      <Blog />
      <Footer />
-    </Router>
-    
     </div>
   )
 }
