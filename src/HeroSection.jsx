@@ -9,7 +9,7 @@ function HeroSection() {
 
     // </div>
 
-    <div className="h-56 sm:h-64 xl:h-[700px] 2xl:h-[600px] ">
+    <div className="h-56 sm:h-64 xl:h-[700px] 2xl:h-[600px] mt-40">
       <Carousel>
         <img  className="object-none" src="/images/a.svg" alt="..." />
         <img src="/images/b.svg" alt="..." />

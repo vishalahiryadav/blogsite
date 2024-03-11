@@ -1,25 +1,25 @@
 
 function Footer() {
     return (
-        <div className="flex justify-around px-20 py-2" id="section1">
+        <div className="flex justify-around px-20 py-12 bg-orange-400" id="contect">
             <div className="p-4">
-                <h2>Policies</h2>
-                <p>Privacy Policy</p>
-                <p>Term of use</p>
-                <p>Career</p>
+                <h2 className="p-1 text-xl font-semibold">Policies</h2>
+                <p className="p-1">Privacy Policy</p>
+                <p className="p-1">Term of use</p>
+                <p className="p-1">Career</p>
             </div>
             <div className="p-4">
-                <h2>Address</h2>
-                <p>b-40,Krishi nagar,taron ki koot</p>
-                <p>jaipur,(Rajasthan)</p>
+                <h2 className="p-1 text-xl font-semibold">Address</h2>
+                <p className="p-1">b-40,Krishi nagar,taron ki koot</p>
+                <p className="p-1">jaipur,(Rajasthan)</p>
             </div>
             <div className="p-4">
-                <h2>Social links</h2>
-                <i></i>
-                <p>Contact:551441</p>
+                <h2 className="p-1 text-xl font-semibold">Social links</h2>
+                <p className="p-1">Contact:551441</p>
                 <div className="flex">
-                    <a href="https://poodles.in/"><img src="/images/facebook.png" width="50px" alt="" /></a>
-                    <a href="https://poodles.in/"><img src="/images/instagram.png" alt="" /></a>
+                    <a className="p-1" href="https://poodles.in/"><img src="/images/facebook.png" alt="" /></a>
+                    <a className="p-1" href="https://poodles.in/"><img src="/images/instagram.png" alt="" /></a>
+                    <a className="p-1" href="https://poodles.in/"><img src="/images/linkedin.png" alt="" /></a>
 
                 </div>
             </div>
